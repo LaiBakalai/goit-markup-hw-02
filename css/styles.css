@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 20px;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+ }
+
+ .hero {
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E2F42;
+    color: white;
+    margin: 0 auto;
+ }
+
+ .hero h1 {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    width: 496px;
+    text-align: center;
+ }
+
+ .hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4D5AE5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+
+ .hero button:hover {
+     background-color: #404BBF;
+     /* Hover background color */
+ }
+
+ .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    padding: 20px;
+    margin: 20px;
+    padding: 20px;
+ }
+
+ .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+ .menu {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 0, 20px;
+ }
+
+ .menu li {
+    margin: 0;
+    padding: 0 20px;
+ }
+
+ .menu a {
+    text-decoration: none;
+    cursor: pointer;
+ }
+
+ .menu a:hover, .menu a:active {
+     color: #404BBF;
+ }
+
+ /*
+.menu a:active {
+    color: #404BBF;
+}
+*/
+
+address {
+    font-style: normal;
+}
+
+ address a {
+    text-decoration: none;
+    gap: 50px;
+}
+
+address a:active {
+    color: #404BBF;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+ }
+
+ .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+ }
+
+ .menu li {
+    margin: 0;
+ }
+
+ .menu a {
+    text-decoration: none;
+    cursor: pointer;
+ }
+
+ .menu a:hover {
+    color: #404BBF;
+ }
+
+ .section_list {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    padding: 0;
+    
+ }
+
+ .section_list p {
+    width: 264px;
+ }
+
+ .section_list li{
+    margin-right: 24px;
+ }
+ .team {
+    background-color: #F4F4FD;
+ }
+
+ 
+ .logo {
+    word-spacing: -0.2em;
+ }
+
+ #web {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+ }
+
+ #studio_black {
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+ }
+
+ #studio_white {
+    color: white;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+ }
+
+ .filter {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .filter button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+
+ .filter button:hover {
+    background-color: #404BBF;
+    color: white;
+ }
+
+ .cards {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+
+ .card {
+    width: 360px;
+    height: 420px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+ }
+
+ .card img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+ }
+
+ .card-content {
+    padding: 16px;
+ }
+
+ .card h3 {
+    margin-top: 0;
+ }
+
+ .card p {
+    margin-bottom: 0;
+ }
+
+ footer {
+    width: 1440px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2E2F42;
+    color: white;
+    /*margin: 0 auto; */
+ }
+
+ footer p {
+    width: 264px;
+    color: white;
+    padding: 0 20px;
+    margin: 20px;
+ }
+
+ footer a {
+    padding: 0 20px;
+    margin: 20px;
+    text-decoration: none;
+
+ }
